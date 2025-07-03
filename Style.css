@@ -64,6 +64,13 @@ button {
     padding: 2rem;
     width: 400px;
     height: 400px;
+    margin-left: -2rem;
+    margin-top: -2rem;
+}
+
+body :has(.card-wrapper.landscape) .Glass{
+  width: 600px;
+  height: 250px;
 }
 
 .profile-card {
